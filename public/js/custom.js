@@ -55,6 +55,6 @@ function refreshSelect(){
  }
 
 function openMenu(){
-    console.log('hello');
+    $("header").toggleClass("open-menu");
 }
 

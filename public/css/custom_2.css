@@ -2,6 +2,7 @@
     background : black;
     height: 30px;
     width: 100%;
+    z-index: 4;
 }
 
 .menu {
@@ -41,7 +42,17 @@
    .drop-icon{
      margin-left: -4px;
    }
-   .open-menu , .menu-lateral{
+   .open-menu, #teste{
+       background: #34495e;
+       position: fixed;
+       width: 100%;
+       height: 100%;
+       right: 20%;
+       z-index: 3;
        
+       
+    }
+   .menu-lateral{
+       left:0;
    }
 }
