@@ -5,13 +5,16 @@ header {
 	position: absolute;
 }
 
+  .container-header{
+  	margin: 0px;
+  	padding: 0px;
+  	width:100%;
+  }
 
-
-header .header-black {
+ .header-black {
 	background-color: black;
 	height: 40px;
 	width:100%;
-
 }
 
 .header-black li{
@@ -266,12 +269,16 @@ header .header-black {
 	right: 288px;
 }*/
 
+.nav-lateral-mobile{
+	display: none;
+}
+
 
 /* RESPONSIVO MOBILE
 */
 
-@media only screen and (max-width:480px){
-	.menu-desktop ,ul{
+@media only screen and (max-width:500px){
+	.menu-desktop{
 		display:none;
 	}
 	.menu-logo, #logotipo{
@@ -279,17 +286,7 @@ header .header-black {
 		right:17%;
 	}
 	
-	.nav-lateral-mobile{
-		margin:0px;
-		padding: 0px;
-	}
-	.btn-ul{
-		margin:0px;
-		padding: 5px;
-		background: black;
-		border:none;
-		
-	}
+
 	
 }
 

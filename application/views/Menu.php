@@ -2,21 +2,16 @@
 <body>
     <header>
         
-        <div class="container header-black">
-            
-                <div class="col-md-2  nav-lateral-mobile">
-                    <button class="btn btn-default navbar-btn btn-ul" >
-                        <i class="material-icons list-icon">reorder</i>
-                    </button>
-                </div>
-           
-        </div>
         
-       <!--<div class="header-black">-->
-            
-       </div>
-       <div class="container">
-       	   <!--<img id="logotipo" src="<?php echo base_url('public/img/tema/barclays/logo1.png'); ?>">-->
+        
+       <div class="container container-header">
+       	    
+       	    <div class="row header-black">
+       	         <div class="col-md-12">
+       	             
+       	         </div>
+       	    </div>
+       	    
        	   <div class="row">
        	       <div class="col-md-4 menu-logo">
        	           <img id="logotipo" src="<?php echo base_url('public/img/tema/barclays/logo1.png'); ?>">

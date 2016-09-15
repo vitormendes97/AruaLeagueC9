@@ -15,6 +15,7 @@
         
               <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
            <link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom.css') ?>"> 
+           <link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom_2.css') ?>"> 
            <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
