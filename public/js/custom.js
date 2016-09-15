@@ -54,11 +54,7 @@ function refreshSelect(){
 	location.reload();
  }
 
-
-document.getElementsByClassName("btn-ul").onclick = function(){
-    alert('ola');
-    console.log('oi');
-};
-
-
+function openMenu(){
+    console.log('hello');
+}
 

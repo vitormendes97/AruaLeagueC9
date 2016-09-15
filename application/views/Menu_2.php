@@ -1,13 +1,16 @@
 <header class"open-menu">
+    <div class"menu-lateral">
+        
+    </div>
     <div class="container-fluid menu">
         <div class="row">
              <div class="col-md-12 header-black">
-                 <a class="btn btn-default visible-xs button-drop" href="#" role="button"><i class="material-icons drop-icon">reorder</i></a>
+                 <a class="btn btn-default visible-xs button-drop" onclick="openMenu()" href="#" role="button"><i class="material-icons drop-icon">reorder</i></a>
              </div>
         </div>
     
     <div class="row">
-        <div class="col-md-4 ">
+        <div class="col-md-4">
             <img src=<?php echo base_url('/public/img/tema/barclays/logo1.png'); ?> id="logotipo" class="img-responsive" ></img>
         </div>
         <div class="col-md-8">
@@ -19,5 +22,6 @@
             </ul>
         </div>
     </div>
+    
 </div>
 </header>
