@@ -55,5 +55,10 @@ function refreshSelect(){
  }
 
 
+document.getElementsByClassName("btn-ul").onclick = function(){
+    alert('ola');
+    console.log('oi');
+};
+
 
 

@@ -10,6 +10,7 @@ header {
 header .header-black {
 	background-color: black;
 	height: 40px;
+	width:100%;
 
 }
 
@@ -264,3 +265,36 @@ header .header-black {
 	color: #e90052;
 	right: 288px;
 }*/
+
+
+/* RESPONSIVO MOBILE
+*/
+
+@media only screen and (max-width:480px){
+	.menu-desktop ,ul{
+		display:none;
+	}
+	.menu-logo, #logotipo{
+		position:absolute;
+		right:17%;
+	}
+	
+	.nav-lateral-mobile{
+		margin:0px;
+		padding: 0px;
+	}
+	.btn-ul{
+		margin:0px;
+		padding: 5px;
+		background: black;
+		border:none;
+		
+	}
+	
+}
+
+
+
+
+
+
