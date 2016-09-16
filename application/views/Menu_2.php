@@ -1,8 +1,13 @@
-<header class"open-menu">
+<header>
    
-    <div class"menu-lateral" id="teste">
-        
+    <div class="container sem-menu" id="menu">
+        <div class="row" style="height:100%;">
+            <div class="col-md-3">
+                <img src=<?php echo base_url('/public/img/tema/barclays/logo1.png'); ?> id="logotipo-lateral" class="img-responsive" ></img>
+            </div>
+        </div>
     </div>
+    
     
     <div class="container-fluid menu">
         <div class="row">
@@ -10,6 +15,8 @@
                  <a class="btn btn-default visible-xs button-drop" onclick="openMenu()" href="#" role="button"><i class="material-icons drop-icon">reorder</i></a>
              </div>
         </div>
+    
+    
     
     <div class="row">
         <div class="col-md-4">

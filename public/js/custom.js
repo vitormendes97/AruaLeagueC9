@@ -55,6 +55,10 @@ function refreshSelect(){
  }
 
 function openMenu(){
-    $("header").toggleClass("open-menu");
+    // $('.container sem-menu').toggleClass('container menu-lateral');
+    var teste = $('#menu').clas
+    
+    $('#menu').toggleClass('sem-menu');
+    $('#menu').toggleClass('menu-lateral');
 }
 
