@@ -14,14 +14,15 @@
       
         
               <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-           <link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom.css') ?>"> 
-           <link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom_2.css') ?>"> 
+           <!--<link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/oficial.css') ?>"> -->
+           <!--<link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom_2.css') ?>"> -->
+           
            <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
         <script type="text/javascript" src="<?php echo base_url('/public/css/materialize/js/materialize.min.js') ?>"></script>
         <script type="text/javascript" src="<?php echo base_url('public/js/custom.js'); ?>"></script>
       <!-- Latest compiled and minified CSS -->
-      <meta content='width=device-width, initial-scale=1' name='viewport'/>
+      <meta content='width=device-width, initial-scale=1' name='viewport' maximum-scale=1, user-scalable=0/>
 
     </head>

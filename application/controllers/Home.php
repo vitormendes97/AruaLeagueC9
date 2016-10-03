@@ -27,8 +27,9 @@ class Home extends CI_Controller {
 		/*$this->load->view('welcome_message');*/
        
         
-         $this->load->view('Head');
+        $this->load->view('Head');
         $this->load->view('Menu_2');
+        $this->load->view('home');
         $this->load->view('Footer');
         
 	}
@@ -47,6 +48,15 @@ class Home extends CI_Controller {
         
     }*/
     
+    public function novomenu(){
+        $this->load->view('HeadNovo');
+        $this->load->view('Menu');
+    }
     
     
+    public function boot(){
+        $this->load->view('HeadNovo');
+        $this->load->view('Menu');
+        $this->load->view('home');
+    }
 }

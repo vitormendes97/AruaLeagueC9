@@ -61,7 +61,9 @@ $route['tabela'] = 'Tabela/main';
 $route['tabela/(:num)'] = 'Tabela/loadTabela/$1';
 $route['rodada'] = 'Rodada/main';
 $route['scoute'] = 'Scoute/main';
+$route['newmenu']  = 'Home/novomenu';
 
+$route['teste'] = 'Home/boot';
 
 
 
