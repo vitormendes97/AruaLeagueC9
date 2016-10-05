@@ -1,16 +1,28 @@
-@media only screen and (max-width:500px){
-    #logo{
-        width : 90%;
-    } 
-    .jumbotron{
-        display: none;
-    }
-}
-
-
-@media only screen and (max-width:990px){
-    #logo{
+@media only screen and (max-width:600px) {
+    #logo {
         width: 90%;
     }
+    .jumbotron {
+        display: none;
+    }
+    .owl-img {
+        margin: 0 auto;
+    }
+    #owl-demo .item {
+        padding-right: 141px;
+    }
+    .owl-font {
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 12px;
+    }
+    #jogador {
+        /*width: 70%;*/
+    }
+ 
+}
 
+@media only screen and (max-width:990px) {
+    #logo {
+        width: 90%;
+    }
 }

@@ -62,6 +62,44 @@
                 <hr class="hr-black"></hr>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-xs-12" >
+                <div id="owl-demo" class="owl-carousel owl-theme">
+                    <div class="item">
+                                 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-2 col-xs-9 pull-left" style="right:15px;">
+                                     <img  id="jogador" src="<?php echo base_url('/public/img/player/gabigol.png'); ?>" class="img-responsive owl-img" ></img>
+                                </div>
+                                <div class="col-md-3 .visible-md-* .visible-lg-*" style="rigth:102px;">
+                                    <p class="text-justify owl-font">Gabriel Barbosa</p>
+                                    
+                                    <p class="text-justify owl-font">Liga Master</p>
+                                    
+                                    <p class="text-justify owl-font"><img src="<?php echo base_url('/public/img/clubes/tottenham_60x60.png'); ?>"></img>
+                                        Atacante
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>                
+        
+                    </div>
+           
+                    <div class="item">
+                            <!--<img src="<?php echo base_url('/public/img/player/gabigol.png'); ?>" class="img-responsive owl-img"></img>-->
+                    </div>
+                    <div class="item">
+                        <h1>3</h1>
+                    </div>
+                    <div class="item">
+                        <h1>4</h1>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
     </div>
 
 </section>

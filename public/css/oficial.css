@@ -41,3 +41,81 @@
  position: relative;
  top:10px;
  }
+ 
+.owl-font{
+ font-family: 'Titillium Web', sans-serif;
+ font-size: 16px;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #jogador{
+  margin: 0px;
+ }
+ 
+ 
+ 
+ 
+ /* 
+             OWL CAROUSEL
+ */
+ 
+ #owl-demo .item{
+    background: #ECECEC;
+    padding: 30px 0px 0px 0px;
+    /*padding-bottom: 0px;*/
+    /*padding-top: 20px;*/
+    /*padding-right: 88px;*/
+    margin: 5px;
+    color: #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+    
+    
+}
+
+
+
+
+.owl-img{
+  margin : 0 auto;
+  position: relative;
+}
+
+ 
+ 
