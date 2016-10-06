@@ -1,3 +1,4 @@
+
 <section>
     <div class="container">
 
@@ -53,7 +54,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p class="news">Estatísticas da Semana</p>
+                <p class="news">Estatísticas da Semana : Melhores do Super Master</p>
             </div>
         </div>
 
@@ -65,6 +66,14 @@
         <div class="row">
             <div class="col-md-4 col-md-offset-4 col-xs-12">
                 <div id="owl-demo" class="owl-carousel owl-theme">
+                  <!--<?php foreach ($jogadores as $j) {  
+                  
+                            if($j->liga == 1)
+                            { $j->liga = 'Master';}
+                            else
+                            {$j->liga = 'Super Master';}
+                  
+                  ?> -->
                     <div class="item">
 
                         <div class="container">
@@ -105,9 +114,14 @@
 
                                     <div class="panel panel-default on-desktop on-mobile">
                                         <!-- Default panel contents -->
-                                        <div class="panel-heading">Panel heading</div>
+                                        <div class="panel-heading">
+                                            <p>Nome do Jogador : <?php echo $j->nome ?></p>
+                                            <p>Posição : <?php echo $j->posicao ?></p>
+                                            <p>Idade : <?php echo $j->idade ?></p>
+                                            <p>Liga : <?php echo $j->liga ?></p>
+                                        </div>
                                         <div class="panel-body">
-                                            <p>...</p>
+                                            <p><img src="<?php echo base_url('/public/img/clubes/'.$j->team_picture); ?>"></p>
                                         </div>
 
                                         <!-- Table -->
@@ -131,18 +145,12 @@
 
                             </div>
                         </div>
+                
+               
+                 </div>
+     
+                 <!--<?php } ?>-->
 
-                    </div>
-
-                    <div class="item">
-                        <!--<img src="<?php echo base_url('/public/img/player/gabigol.png'); ?>" class="img-responsive owl-img"></img>-->
-                    </div>
-                    <div class="item">
-                        <h1>3</h1>
-                    </div>
-                    <div class="item">
-                        <h1>4</h1>
-                    </div>
 
                 </div>
             </div>

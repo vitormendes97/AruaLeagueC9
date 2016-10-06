@@ -43,6 +43,8 @@ class Scout_model extends CI_Model
         $this->db->from('infojogador');
         $this->db->join('jogador','infojogador.id_info = jogador.infojogador');
         $this->db->join('clube' , 'jogador.clube = clube.id_clube');
+        $this->db->limit(5);
+        $this->db->group_by('clube.id_clube');
         $query = $this->db->get();
         
         return array($query->result());

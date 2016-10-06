@@ -60,7 +60,10 @@
   width: 88%;
 }
  
- 
+.panel-heading > p{
+ font-family: 'Titillium Web', sans-serif;
+ text-align: left;
+}
  
  
  

@@ -55,8 +55,13 @@ class Home extends CI_Controller {
     
     
     public function boot(){
+        
+        $this->load->model('Scout_model');
+	    list($jogadores) = $this->Scout_model->teste();
+	    $array['jogadores'] = $jogadores;
+        
         $this->load->view('HeadNovo');
         $this->load->view('Menu');
-        $this->load->view('home');
+        $this->load->view('home',$array);
     }
 }
