@@ -63,32 +63,79 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-md-offset-4 col-xs-12" >
+            <div class="col-md-4 col-md-offset-4 col-xs-12">
                 <div id="owl-demo" class="owl-carousel owl-theme">
                     <div class="item">
-                                 
+
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-2 col-xs-9 pull-left" style="right:15px;">
-                                     <img  id="jogador" src="<?php echo base_url('/public/img/player/gabigol.png'); ?>" class="img-responsive owl-img" ></img>
+                                <!--<div class="col-md-2 col-xs-6 col-lg-2 pull-left" style="right:15px;">-->
+                                <!--     <img  id="jogador" src="<?php echo base_url('/public/img/player/gabigol.png'); ?>" class="img-responsive owl-img" ></img>-->
+                                <!--</div>-->
+                                <!--<div class="col-md-3 col-xs-1 visible-md visible-lg no-mobile" style="rigth:102px;">-->
+                                <!--    <p class="text-justify owl-font">Gabriel Barbosa</p>-->
+
+                                <!--    <p class="text-justify owl-font">Liga Master</p>-->
+
+                                <!--    <p class="text-justify owl-font"><img id="owl-logo" src="<?php echo base_url('/public/img/clubes/tottenham_60x60.png'); ?>"></img>-->
+                                <!--        Atacante-->
+                                <!--    </p>-->
+
+                                <!--</div>-->
+
+                                <!--<div class="visible-xs col-xs-2">-->
+                                <!--    <p class="text-justify owl-font">Gabriel Barbosa</p>-->
+
+                                <!--    <p class="text-justify owl-font">Liga Master</p>-->
+                                <!--</div>-->
+                                <!--<div class="visible-xs col-xs-2 pull-right">-->
+                                <!--     <p class="text-justify owl-font"><img id="owl-logo" src="<?php echo base_url('/public/img/clubes/tottenham_60x60.png'); ?>"></img>-->
+                                <!--        Atacante-->
+                                <!--    </p>-->
+                                <!--</div>-->
+
+
+                                <div class="col-md-4 col-xs-10">
+
+                                    <div class="owl-img-mobile-home owl-img-desktop-home">
+                                      <img id="jogador" class="card-img-top" src="<?php echo base_url('/public/img/player/gabigol.png'); ?>" alt="Card image cap">
+                                    </div>
+
+
+
+                                    <div class="panel panel-default on-desktop on-mobile">
+                                        <!-- Default panel contents -->
+                                        <div class="panel-heading">Panel heading</div>
+                                        <div class="panel-body">
+                                            <p>...</p>
+                                        </div>
+
+                                        <!-- Table -->
+                                        <table class="table table-responsive">
+                                            <tr class="index-table">
+                                                <th>Gols</th>
+                                                <th>Média</th>
+                                                <th>Faltas</th>
+                                            </tr>
+                                            <tr>
+                                                <td class="success">12</td>
+                                                <td class="success">20</td>
+                                                <td class="danger">15</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <!--</div>-->
+                                    <!--Fim Card-->
                                 </div>
-                                <div class="col-md-3 .visible-md-* .visible-lg-*" style="rigth:102px;">
-                                    <p class="text-justify owl-font">Gabriel Barbosa</p>
-                                    
-                                    <p class="text-justify owl-font">Liga Master</p>
-                                    
-                                    <p class="text-justify owl-font"><img src="<?php echo base_url('/public/img/clubes/tottenham_60x60.png'); ?>"></img>
-                                        Atacante
-                                    </p>
-                                    
-                                </div>
+
                             </div>
-                        </div>                
-        
+                        </div>
+
                     </div>
-           
+
                     <div class="item">
-                            <!--<img src="<?php echo base_url('/public/img/player/gabigol.png'); ?>" class="img-responsive owl-img"></img>-->
+                        <!--<img src="<?php echo base_url('/public/img/player/gabigol.png'); ?>" class="img-responsive owl-img"></img>-->
                     </div>
                     <div class="item">
                         <h1>3</h1>
@@ -96,7 +143,7 @@
                     <div class="item">
                         <h1>4</h1>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

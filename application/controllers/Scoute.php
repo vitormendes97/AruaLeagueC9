@@ -24,11 +24,15 @@ class Scoute extends CI_Controller {
 	 */
 	public function main()
 	{
-	
-         $this->load->view('Head');
-        $this->load->view('Menu');
-         $this->load->view('Scoute');
-        $this->load->view('Footer');
+	    
+	    $this->load->model('Scout_model');
+	    $array = $this->Scout_model->teste();
+	    var_dump($array);
+	    
+        //  $this->load->view('Head');
+        // $this->load->view('Menu');
+        //  $this->load->view('Scoute');
+        // $this->load->view('Footer');
         
 	}
 

@@ -46,6 +46,19 @@
  font-family: 'Titillium Web', sans-serif;
  font-size: 16px;
 }
+
+.on-desktop{
+ position: relative;
+ right: 20px;
+}
+
+.index-table > th,td{
+ text-align: center;
+}
+
+.owl-img-desktop-home{
+  width: 88%;
+}
  
  
  
@@ -93,7 +106,7 @@
  */
  
  #owl-demo .item{
-    background: #ECECEC;
+    /*background: #ECECEC;*/
     padding: 30px 0px 0px 0px;
     /*padding-bottom: 0px;*/
     /*padding-top: 20px;*/

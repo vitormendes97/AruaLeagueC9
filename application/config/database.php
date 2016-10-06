@@ -76,8 +76,8 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> 'mysql:host=localhost;port=3306;dbname=cartola_arua',
 	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'mendes',
+	'username' => 'vitormendes97',
+	'password' => '',
 	'database' => 'cartola_arua',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',

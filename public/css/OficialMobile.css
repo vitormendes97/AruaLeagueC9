@@ -1,4 +1,4 @@
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:550px) {
     #logo {
         width: 90%;
     }
@@ -15,10 +15,32 @@
         font-family: 'Titillium Web', sans-serif;
         font-size: 12px;
     }
-    #jogador {
-        /*width: 70%;*/
+    #owl-logo {
+        width: 39px;
     }
- 
+    .no-mobile {
+        display: none;
+    }
+    .on-mobile {
+        width: 192%;
+        position: relative;
+        left: 20px;
+    }
+    
+    .owl-img-mobile-home{
+        width: 221%;
+    }
+}
+
+
+/*Iphone 5 */
+
+@media (min-width: 551px) and (max-width: 600px) {
+    .on-mobile {
+        width: 268%;
+        position: relative;
+        left: 20px;
+    }
 }
 
 @media only screen and (max-width:990px) {
